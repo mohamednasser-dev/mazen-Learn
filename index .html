@@ -10,7 +10,8 @@
 <h1>book store</h1>
 <p>this is my book store,welcome</p>
 </div>
-<form  action="" method="">
+<form  action="" method="get">
+  <input type="hidden" value="Mazen">
   <div>
     <label>username</label>
     <input type="text"  required placeholder="username" name="user">
@@ -25,11 +26,27 @@
     <label >password</label>
 <input  type="password" required placeholder="write a complex password" name="pass">
 </div>
-</div>
 <br>
-<div>
-    <label >email</label>
+</div>
+<label >email</label>
 <input  type="email" required placeholder="write a valid email" value="o@nn.sa" name="mail"> 
+<div>
+  <br>
+</div>
+<label >color</label>
+<input  type="color" name="color"> 
+<div>
+   <br>
+</div>
+<label >range</label>
+<input  type="range" name="range" min="0" max="100" step="20" value="0"> 
+<div>
+    <br>
+</div>
+<label >number</label>
+<input  type="number" name="number" min="10" max="100" step="10"> 
+<div>
+<input type="reset" value="reset">
 <input type="submit" value="save">
 </form>
 </body>
